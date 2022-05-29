@@ -1,0 +1,30 @@
+
+.places__url-heading{
+    grid-area: heading;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin-left: 40px;
+}
+
+@media (max-width: 1024px){
+    .places__url-heading{
+        margin-left: 38px;
+    }
+}
+@media (max-width: 768px){
+    .places__url-heading{
+        line-height: 12px;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 320px){
+    .places__url-heading{
+        line-height: 12px;
+        margin-left: 16px;
+    }
+}

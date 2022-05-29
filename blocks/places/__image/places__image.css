@@ -1,0 +1,27 @@
+.places__image{
+    grid-area: image;
+    max-height: 460px;
+    max-width: 100%;
+    object-fit: cover;
+    align-items: center ;
+}
+
+@media (max-width: 1024px){
+    .places__image{
+       max-height: 440px;
+    }
+   
+}
+@media (max-width: 768px){
+    .places__image{
+        max-height: 340px;
+    }
+   
+}
+
+@media (max-width: 320px){
+    .places__image{
+        max-height: 320px;
+    }
+   
+}
