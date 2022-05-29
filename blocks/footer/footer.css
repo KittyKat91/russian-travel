@@ -6,7 +6,7 @@
     color: #FFFFFF;
     margin: 0 auto;
     padding-top: 92px;
-    padding-bottom: 24px; 
+    padding-bottom: 24px;
     width: calc(100% - 48px*2);
 }
 @media (max-width: 768px){
