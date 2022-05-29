@@ -7,7 +7,7 @@
 * Введение
 
 Создана верстка о путеществии по россии
-Ссылка на Гит: https://github.com/KittyKat91/russian-travel
+Ссылка на сайт: https://kittykat91.github.io/russian-travel/
 
 * Технология
 
