@@ -2,13 +2,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    box-sizing: border-box;
-    object-fit: fill;
     grid-gap: 16px 16px;
     padding-left: 48px;
     padding-right: 48px;
-    margin-bottom: 92px;
-    margin-top: 92px;
 }
 
 @media (max-width: 1024px){

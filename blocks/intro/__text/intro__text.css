@@ -5,4 +5,28 @@
     line-height: 163%;
     box-sizing: border-box;
     margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 148px;
+    width: 100%;
+}
+
+@media (max-width: 1024px){
+    .intro__text{
+       margin-left: 48px;
+    }
+   
+}
+@media (max-width: 768px){
+    .intro__text{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+   
+}
+
+@media (max-width: 320px){
+    .intro{
+        margin: 64px 16px 64px 16px;
+    }
+   
 }
