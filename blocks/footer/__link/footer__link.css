@@ -7,6 +7,11 @@
     line-height: 112%;
 }
 
+.footer__link:hover{
+    color:#AAAAAA;
+    opacity: 0.8;
+}
+
 @media (max-width: 320px){
     .footer__links{
         font-size: 24px;

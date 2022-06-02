@@ -5,6 +5,7 @@
     grid-gap: 16px 16px;
     padding-left: 48px;
     padding-right: 48px;
+    margin-bottom: 12px;
 }
 
 @media (max-width: 1024px){
@@ -22,8 +23,7 @@
         grid-gap: 24px 24px;
         padding-left: 24px;
         padding-right: 24px;
-        margin-bottom: 88px;
-        margin-top: 88px;
+        margin-bottom: 15px;
     }
    
 }
@@ -35,8 +35,7 @@
         grid-gap: 12px 12px;
         padding-left: 16px;
         padding-right: 16px;
-        margin-bottom: 64px;
-        margin-top: 64px;
+        margin-bottom: 14px;
     }
    
 }

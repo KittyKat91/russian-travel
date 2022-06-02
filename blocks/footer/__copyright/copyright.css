@@ -3,13 +3,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
-    text-align: left;
-    margin: 0 auto;
-    margin-right: 48px;
+    align-items: flex-end;
+    margin: 0;
+    
 }
 
 @media (max-width: 320px){
-    .footer__copyrights {
+    .footer__copyright {
         flex-direction: column;
         margin-top: 48px;
         margin-left: 16px;

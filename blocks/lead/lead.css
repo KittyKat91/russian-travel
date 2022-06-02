@@ -2,7 +2,6 @@
 .lead{
     display: flex;
     flex-direction: column;
-    margin-top: 56px;
     padding: 0 148px 0 148px;
     justify-content: center;
     align-items: center;

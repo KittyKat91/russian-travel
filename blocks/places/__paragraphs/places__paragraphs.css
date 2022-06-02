@@ -5,18 +5,23 @@
     flex-direction: column;
     gap: 26px;
     margin-left: 40px;
+    max-width: 484px;
+    width: 100%;
     
 }
 
 @media (max-width: 1024px){
     .places__paragraphs{
         margin-left: 38px;
+        max-width: 456px;
     }
 }
 @media (max-width: 768px){
     .places__paragraphs{
         margin-left: 28px;
         gap: 25px;
+        max-width: 352px;
+        
         
     }
 }
@@ -24,5 +29,7 @@
 @media (max-width: 320px){
     .places__paragraphs{
         margin-left: 16px;
+        margin-top: 32px;
+        max-width: 288px;
     }
 }
