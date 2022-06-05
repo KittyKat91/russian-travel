@@ -22,5 +22,6 @@
         flex-wrap: wrap;
         margin-top: 64px;
         padding: 0;
+        padding-bottom: 24px;
     }
 }
