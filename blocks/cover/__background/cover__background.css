@@ -1,29 +1,35 @@
 
 .cover__background{
-    margin: 0 auto;
-    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 0;
     align-self: center;
     justify-self: center;
-    box-sizing: border-box;
-    background-size: cover;
+    display: block;
+    object-position: center;
+    width: 100%;
+    height: 740px;
+    background-image: url(../../../images/cover-trains.jpg); 
 }
 
 @media (max-width: 1024px){
     .cover__background{
-       max-height: 640px;
+       height: 640px;
     }
    
 }
 @media (max-width: 768px){
     .cover__background{
-        max-height: 480px; 
+        height: 480px; 
     }
    
 }
 
 @media (max-width: 320px){
     .cover__background{
-        max-height: 200px;
+        height: 200px;
     }
 }

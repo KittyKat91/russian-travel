@@ -3,11 +3,12 @@
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
+    align-items: center;
     margin: 0 auto;
     position: relative;
     z-index: 0;
     overflow: hidden;
-    height: 740px;
+    max-height: 740px;
     width: calc(100% - (48px * 2));
     margin-top: 92px;
 }
@@ -34,6 +35,9 @@
         margin-top: 66px;
     }
 }
+
+
+
 
 
    
