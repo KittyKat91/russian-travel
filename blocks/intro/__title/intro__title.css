@@ -5,7 +5,7 @@
     line-height: 58px;
     margin-top: 92px;
     margin-bottom: 0;
-    max-width: 690px;
+    max-width: 720px;
     color: #FFFFFF;
 }
 
@@ -13,7 +13,6 @@
 @media (max-width: 768px){
     .intro__title{
         margin-top: 88px;
-        max-width: 720px;
         
     }
    

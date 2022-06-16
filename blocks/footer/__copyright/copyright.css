@@ -9,6 +9,8 @@
     
 }
 
+
+
 @media (max-width: 320px){
     .footer__copyright {
         flex-direction: column;

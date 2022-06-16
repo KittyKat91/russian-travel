@@ -1,16 +1,17 @@
-.header__lang-links{
-    
+.header__lang-links {
     list-style-type: none;
     display: flex;
     flex-wrap: nowrap;
+    text-decoration: none;
     flex-direction: row;
     gap: 18px;
-    text-decoration: none;
     margin: 0;
     padding: 0;
     align-self: center;
     
 }
+
+
 
 
 

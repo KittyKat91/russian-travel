@@ -27,6 +27,12 @@
         margin-left: 28px;
     }
 }
+@media (max-width: 650px) {
+    .places__website{
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+}
 
 @media (max-width: 320px){
     .places__website{

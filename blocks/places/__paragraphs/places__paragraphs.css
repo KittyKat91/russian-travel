@@ -21,8 +21,13 @@
         margin-left: 28px;
         gap: 25px;
         max-width: 352px;
-        
-        
+    }
+}
+
+@media (max-width: 650px) {
+    .places__paragraphs{
+        margin-top: 32px;
+        margin-left: 0;
     }
 }
 

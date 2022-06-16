@@ -1,5 +1,6 @@
 .places__item{
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 460px 1fr;
     grid-template-areas:
         "title heading"
@@ -16,6 +17,17 @@
 @media (max-width: 768px){
     .places__item{
         grid-template-columns: 340px 1fr;
+    }
+}
+@media (max-width: 650px) {
+    .places__item{
+        grid-template-columns: 506px;
+        grid-template-areas:
+        "title"
+        "heading"
+        "website"
+        "image" 
+        "text";
     }
 }
 

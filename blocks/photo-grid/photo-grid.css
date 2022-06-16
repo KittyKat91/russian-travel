@@ -28,6 +28,19 @@
    
 }
 
+@media (max-width: 506px){
+    .photo-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-gap: 12px 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 14px;
+    }
+   
+}
+
+
 @media (max-width: 320px){
     .photo-grid{
         grid-template-columns: repeat(1, 1fr);
