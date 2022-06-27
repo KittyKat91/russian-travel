@@ -7,24 +7,25 @@
     bottom: 0;
     z-index: 0;
     background-size: cover;
+    width: 100%;
     background-image: url(../../../images/cover-trains.jpg); 
 }
 
 @media (max-width: 1024px){
     .cover__background{
-       height: 640px;
+       max-height: 640px;
     }
    
 }
 @media (max-width: 768px){
     .cover__background{
-        height: 480px; 
+        max-height: 480px; 
     }
    
 }
 
 @media (max-width: 320px){
     .cover__background{
-        height: 200px;
+        max-height: 200px;
     }
 }

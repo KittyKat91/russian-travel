@@ -5,11 +5,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;
+    background-position: center;
     text-decoration: none;
     margin: 0 auto;
     position: relative;
-    overflow: hidden;
     height: 740px;
     width: 100%;
     background: #2A2C2F;
@@ -17,18 +16,18 @@
 
 @media (max-width: 1024px){
     .cover__background{
-       max-height: 640px;
+       height: 640px;
     }
 }
 @media (max-width: 768px){
     .cover__background{
-        max-height: 480px;  
+        height: 480px;  
     }
 }
 
 @media (max-width: 320px){
     .cover__background{
-        max-height: 200px;
+        height: 200px;
     }
 }
 .cover__overlay:before {

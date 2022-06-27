@@ -2,11 +2,16 @@
 .places__paragraphs{
     grid-area: text;
     display: flex;
+    position: relative;
+    box-sizing: border-box;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 26px;
-    margin-left: 40px;
+    margin: 0 0 0 40px;
     max-width: 484px;
     width: 100%;
+    border: solid red 3px;
     
 }
 
@@ -14,6 +19,12 @@
     .places__paragraphs{
         margin-left: 38px;
         max-width: 456px;
+    }
+}
+
+@media (max-width: 800px){
+    .places__paragraphs{
+        margin-left: 28px;
     }
 }
 @media (max-width: 768px){
@@ -26,14 +37,14 @@
 
 @media (max-width: 650px) {
     .places__paragraphs{
-        margin-top: 32px;
         margin-left: 0;
+        margin-top: 32px;
     }
 }
 
 @media (max-width: 320px){
     .places__paragraphs{
-        margin: 32px auto 0;
         max-width: 288px;
+        margin: 32px 16px 0 16px;
     }
 }

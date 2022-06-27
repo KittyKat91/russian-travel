@@ -8,9 +8,21 @@
         "image text";
 }
 
+@media (max-width: 1000px){
+    .places__item{
+        grid-template-columns: 430px 1fr;
+    }
+}
+
 @media (max-width: 1024px){
     .places__item{
         grid-template-columns: 440px 1fr;
+    }
+}
+
+@media (max-width: 800px){
+    .places__item{
+        grid-template-columns: 370px 1fr;
     }
 }
 
@@ -34,12 +46,7 @@
 @media (max-width: 320px){
     .places__item{
         grid-template-columns: 320px;
-        grid-template-areas:
-        "title"
-        "heading"
-        "website"
-        "image" 
-        "text";
+
     }
    
 }

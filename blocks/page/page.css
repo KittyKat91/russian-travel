@@ -1,9 +1,10 @@
 .page{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Helvetica Neue, Arial;
     background-color: #2A2C2F;
     max-width: 1280px;
     width:100%;
     margin: 0 auto;
+    border: solid blue 2px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

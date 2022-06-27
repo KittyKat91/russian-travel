@@ -4,17 +4,21 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
-    align-items: flex-end;
+    align-self: flex-end;
     margin: 0;
     
 }
 
-
+@media (max-width: 560px){
+    .footer__copyright{
+        align-self: flex-start;
+        margin-top: 48px;
+    }
+}
 
 @media (max-width: 320px){
     .footer__copyright {
         flex-direction: column;
-        margin-top: 48px;
         margin-left: 16px;
         
     }

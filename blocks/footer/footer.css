@@ -15,19 +15,17 @@
     }
 }
 
-@media (max-width: 666px){
+@media (max-width: 560px){
     .footer{
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 320px){
     .footer{
-        flex-direction: column;
-        flex-wrap: wrap;
         margin-top: 64px;
         margin-left: 0;
         padding: 0;
-        padding-bottom: 24px;
     }
 }
