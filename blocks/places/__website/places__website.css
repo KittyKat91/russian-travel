@@ -9,7 +9,8 @@
     color: #FFFFFF;
     margin-left: 40px;
     margin-bottom: 48px;
-    
+    width: 100%; 
+    max-width: 300px;   
 }
 
 .places__website:hover{
@@ -25,6 +26,7 @@
 @media (max-width: 768px){
     .places__website{
         margin-left: 28px;
+       
     }
 }
 @media (max-width: 650px) {

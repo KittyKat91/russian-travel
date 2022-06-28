@@ -2,7 +2,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 120%;
     color: #FFF;
     margin: 32px 0 64px;
     text-align: center;
@@ -21,12 +21,9 @@
 @media (max-width: 768px){
     .lead__subtitle{
         max-width: 500px;
-    }
-}
-@media (max-width: 480px){
-    .lead__subtitle{
+        margin-left: 64px;
+        margin-right: 64px;
         font-size: 20px;
-        line-height: 120%;
     }
 }
 

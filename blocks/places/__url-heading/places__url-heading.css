@@ -11,6 +11,8 @@
     margin-bottom: 12px;
     margin-top: 0;
     text-transform: uppercase;
+    width: 100%;
+    max-width: 221px;
 }
 
 @media (max-width: 1024px){
@@ -22,6 +24,7 @@
     .places__url-heading{
         line-height: 12px;
         margin-left: 28px;
+        
     }
 }
 

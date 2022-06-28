@@ -38,10 +38,13 @@
     }
 }
 
+
+
 @media (max-width: 320px){
     .places__image{
         max-height: 320px;
         max-width: 320px;
+        width: 100%;
         margin: 0 auto;
     }
    

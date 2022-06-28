@@ -3,15 +3,11 @@
     grid-area: text;
     display: flex;
     position: relative;
-    box-sizing: border-box;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 26px;
     margin: 0 0 0 40px;
     max-width: 484px;
-    width: 100%;
-    border: solid red 3px;
     
 }
 
