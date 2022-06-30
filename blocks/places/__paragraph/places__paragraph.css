@@ -4,9 +4,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 0 auto;
-    width: 100%;
-    
+    margin: 0 auto;    
 }
 
 @media (max-width: 1024px){
@@ -22,8 +20,3 @@
     }
 }
 
-@media (max-width: 320px){
-    .places__paragraph{
-        max-width: 288px;
-    }
-}

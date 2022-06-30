@@ -28,12 +28,13 @@
     }
 }
 
-@media (max-width: 650px) {
-    .places__url-heading{
+@media (max-width: 720px) {
+    .places__url-heading { 
         margin-left: 0;
     }
 }
-@media (max-width: 320px){
+
+@media (max-width: 650px) {
     .places__url-heading{
         margin-left: 16px;
     }

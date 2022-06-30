@@ -2,12 +2,13 @@
     grid-area: title;
     font-style: normal;
     text-align: left;
+    justify-self: start;
+    align-self: flex-start;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     margin-bottom: 48px;
     margin-top: 80px;
-    width: 100%;
 }
 
 @media (max-width: 768px){
@@ -17,17 +18,21 @@
         margin-top: 73px;
         margin-bottom: 32px;
         max-width: 340px;
-        
     }
-   
+}
+
+@media (max-width: 720px) {
+    .places__title {
+        margin-top: 64px;  
+        margin-left: 0;
+        font-size: 35px;
+    }
 }
 @media (max-width: 650px) {
-    .places__title {
-        margin-left: 0;
-        margin-top: 64px;
-        
+    .places__title { 
+        font-size: 35px;
+        margin-left: 16px;
     }
-    
 }
 
 @media (max-width: 320px){
@@ -36,5 +41,6 @@
         line-height: 35px;
         margin-left: 16px;
         margin-top: 50px;
+        max-width: 320px;
     }
 }

@@ -8,6 +8,7 @@
     gap: 26px;
     margin: 0 0 0 40px;
     max-width: 484px;
+    width: 100%;
     
 }
 
@@ -25,22 +26,37 @@
 }
 @media (max-width: 768px){
     .places__paragraphs{
-        margin-left: 28px;
         gap: 25px;
         max-width: 352px;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 720px){
     .places__paragraphs{
+        max-width: 340px;
         margin-left: 0;
         margin-top: 32px;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 650px) {
+    .places__paragraphs{
+        max-width: 300px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 414px) {
     .places__paragraphs{
         max-width: 288px;
+        margin-left: 16px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .places__paragraphs{
         margin: 32px 16px 0 16px;
     }
 }

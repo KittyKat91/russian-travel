@@ -22,9 +22,14 @@
     }
 }
 
+@media (max-width: 414px){
+    .places{
+        max-width: 414px;
+        width: 100%;
+    }
+}
 @media (max-width: 320px){
     .places{
         max-width: 320px;
-        width: 100%;
     }
 }

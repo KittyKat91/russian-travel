@@ -2,19 +2,18 @@
 .places__website{
     grid-area: website;
     font-style: normal;
+    justify-self: start;
+    align-self: flex-start;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
     margin-left: 40px;
-    margin-bottom: 48px;
-    width: 100%;
-    max-width: 300px;   
+    margin-bottom: 48px;  
 }
 
 .places__website:hover{
-    color:#AAAAAA;
     opacity: 0.8;
 }
 
@@ -29,10 +28,16 @@
        
     }
 }
+
+@media (max-width: 720px) {
+    .places__website { 
+        margin-left: 0;
+    }
+}
 @media (max-width: 650px) {
     .places__website{
-        margin-bottom: 32px;
-        margin-left: 0;
+        margin-bottom: 32px; 
+        margin-left: 16px;     
     }
 }
 

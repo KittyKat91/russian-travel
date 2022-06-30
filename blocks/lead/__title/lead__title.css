@@ -5,10 +5,10 @@
     color: #FFF;
     text-align: center;
     align-self: center;
+    justify-self: center;
     position: relative;
     margin: 56px auto 0 auto;
     max-width: 720px;
-    width: 100%;
 }
 
 @media (max-width: 1024px){
@@ -20,12 +20,14 @@
 @media (max-width: 768px) {
     .lead__title{
         font-size: 60px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
 @media (max-width: 480px) {
     .lead__title{
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 

@@ -20,8 +20,7 @@
 
 @media (max-width: 320px){
     .intro__text{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 40px;
         max-width: 288px;
     }
    
