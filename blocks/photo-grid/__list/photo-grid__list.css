@@ -1,6 +1,5 @@
 .photo-grid__list{
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding-left: 48px;

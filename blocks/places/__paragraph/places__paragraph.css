@@ -10,13 +10,27 @@
 @media (max-width: 1024px){
     .places__paragraph{
         max-width: 456px;
-    }
-}
-@media (max-width: 768px){
-    .places__paragraph{
-        max-width: 352px;
-        font-size: 16px;
-        
+        margin-right: 48px;
+       
     }
 }
 
+@media (max-width: 860px){
+    .places__paragraph{
+        margin-right: 24px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .places__paragraph{
+        font-size: 16px;
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 720px){
+    .places__paragraph{
+        margin-right: 0;
+    }
+}

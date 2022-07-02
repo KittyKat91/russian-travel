@@ -17,8 +17,15 @@
 
 @media (max-width: 768px){
     .places{
-       max-width: 720px;
+       max-width: 768px;
        width: calc(100% - 24px*2);
+    }
+}
+
+@media (max-width: 750px){
+    .places{
+       max-width: 750px;
+       width: calc(100% - 15px*2);
     }
 }
 

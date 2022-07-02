@@ -14,20 +14,21 @@
 
 @media (max-width: 1024px){
     .places__paragraphs{
-        margin-left: 38px;
+        margin-left: 32px;
         max-width: 456px;
     }
 }
 
-@media (max-width: 800px){
-    .places__paragraphs{
-        margin-left: 28px;
-    }
-}
 @media (max-width: 768px){
     .places__paragraphs{
         gap: 25px;
-        max-width: 352px;
+
+    }
+}
+
+@media (max-width: 750px){
+    .places__paragraphs{
+        margin-left: 20px;
     }
 }
 
@@ -49,7 +50,6 @@
 @media (max-width: 414px) {
     .places__paragraphs{
         max-width: 288px;
-        margin-left: 16px;
     }
 }
 

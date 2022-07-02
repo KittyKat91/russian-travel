@@ -4,6 +4,7 @@
     max-height: 460px;
     max-width: 460px;
     object-fit: cover;
+    width: 100%;
 }
 
 @media (max-width: 1024px){
@@ -15,24 +16,22 @@
 
 @media (max-width: 900px){
     .places__image{
-       max-height: 395px;
-       max-width: 395px;
+       max-height: 370px;
+       max-width: 370px;
     }
 }
-@media (max-width: 800px){
+@media (max-width: 860px){
     .places__image{
-        max-height: 370px;
-        max-width: 370px;
+       max-height: 360px;
+       max-width: 360px;
     }
-   
 }
 
 @media (max-width: 768px){
     .places__image{
-        max-height: 340px;
-        max-width: 340px;
+       max-height: 340px;
+       max-width: 340px;
     }
-   
 }
 
 @media (max-width: 650px) {

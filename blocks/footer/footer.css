@@ -26,6 +26,6 @@
     .footer{
         margin-top: 64px;
         margin-left: 0;
-        padding: 0;
+        padding: 0 0 24px 0;
     }
 }

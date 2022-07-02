@@ -23,6 +23,11 @@
         max-width: 500px;
         margin-left: 64px;
         margin-right: 64px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 700px){
+    .lead__subtitle{
         font-size: 20px;
     }
 }
