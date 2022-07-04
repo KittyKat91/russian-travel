@@ -28,11 +28,11 @@
 
 @media (max-width: 750px) {
     .places__website { 
-        margin-left: 32px;
+        margin-left: 0;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 490px){
     .places__website{
         margin: 0 16px;
     }

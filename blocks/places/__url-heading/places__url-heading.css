@@ -30,11 +30,11 @@
 
 @media (max-width: 750px) {
     .places__url-heading { 
-        margin-left: 32px;
+        margin-left: 0;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 490px) {
     .places__url-heading {
         margin-left: 16px;
     }
