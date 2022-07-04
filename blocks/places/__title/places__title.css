@@ -4,8 +4,8 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 110%;
-    margin-bottom: 48px;
     margin-top: 80px;
+    margin-bottom: 0;
 }
 
 
@@ -21,7 +21,6 @@
         line-height: 46px;
         margin-top: 73px;
         max-width: 340px;
-        margin-left: 24px;
     }
 }
 

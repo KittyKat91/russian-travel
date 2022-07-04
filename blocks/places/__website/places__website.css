@@ -9,18 +9,10 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    margin-left: 40px;
-    margin-bottom: 48px;  
 }
 
 .places__website:hover{
     opacity: 0.8;
-}
-
-@media (max-width: 1024px){
-    .places__website{
-        margin-left: 38px;
-    }
 }
 
 @media (max-width: 1000px){
@@ -42,6 +34,6 @@
 
 @media (max-width: 320px){
     .places__website{
-        margin: 0 16px 32px 16px;
+        margin: 0 16px;
     }
 }
