@@ -3,6 +3,7 @@
     max-width: 984px;
     justify-content: center;
     align-items: center;
+    display: grid;
     width: 100%;
     margin: 0 auto;
     color: #FFF;
@@ -10,8 +11,14 @@
 
 @media (max-width: 1024px){
     .places{
-        max-width: 928px;
+        max-width: 1024px;
         width: calc(100% - 48px*2);
+    }
+}
+@media (max-width: 1000px){
+    .places{
+        width:100%;
+        margin: 0;
     }
 }
 
@@ -24,19 +31,13 @@
 
 @media (max-width: 750px){
     .places{
-       max-width: 750px;
-       width: calc(100% - 15px*2);
+       width: 100%;
     }
 }
 
-@media (max-width: 414px){
-    .places{
-        max-width: 414px;
-        width: 100%;
-    }
-}
 @media (max-width: 320px){
     .places{
         max-width: 320px;
     }
 }
+

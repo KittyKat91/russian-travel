@@ -1,43 +1,20 @@
 .places__item{
     display: grid;
-    grid-template-columns: 460px 1fr;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(460px,1fr));
     grid-template-areas:
         "title heading"
         ". website"
         "image text";
 }
-
-@media (max-width: 1080px){
+@media (max-width: 1024px){
     .places__item{
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(440px,1fr));
     }
 }
 
 @media (max-width: 1000px){
     .places__item{
-        grid-template-columns: 430px 1fr;
-    }
-}
-@media (max-width: 900px){
-    .places__item{
-        grid-template-columns: 370px 1fr;
-    }
-}
-@media (max-width: 860px){
-    .places__item{
-        grid-template-columns: 360px 1fr;
-    }
-}
-
-@media (max-width: 768px){
-    .places__item{
-        grid-template-columns: 340px 1fr;
-    }
-}
-
-@media (max-width: 720px){
-    .places__item{
-        grid-template-columns: 650px;
         grid-template-areas:
         "title"
         "heading"
@@ -47,9 +24,26 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px){
     .places__item{
-        grid-template-columns: 506px;
+        grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+        grid-template-areas:
+        "title heading"
+        ". website"
+        "image text";
+        
+    }
+}
+
+@media (max-width: 750px){
+    .places__item{
+        grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+        grid-template-areas:
+        "title"
+        "heading"
+        "website"
+        "image" 
+        "text";
     }
 }
 
